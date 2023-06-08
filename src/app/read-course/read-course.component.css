@@ -1,0 +1,47 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+        .container {
+          width: 100% ;
+          margin: 20px auto;
+        }
+    
+        table {
+          width: 80% ;
+          border-collapse: collapse;
+          margin: 50px auto;
+        }
+    
+        th,
+        td {
+          padding: 10px;
+          text-align: center;
+          border-bottom: 1px solid #838383;
+        }
+    
+        th {
+          background-color: darksalmon;
+        }
+    
+    
+        tr:hover {
+          background-color: lavender;
+        }
+
+mat-icon{
+  cursor: pointer;
+  color: darkred;
+}
+.delete{
+  width: 0px ;
+}
+.a,.b{
+  width: 500px;
+  }

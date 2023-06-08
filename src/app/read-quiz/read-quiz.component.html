@@ -1,0 +1,26 @@
+<div class="container">
+    <table>
+        <tr>
+            <th>Topic Id</th>
+            <th>Quiz Id</th>
+            <th>Question</th>
+            <th>Option A</th>
+            <th>Option B</th>
+            <th>Option C</th>
+            <th>Option D</th>
+            <th>Answer</th>
+        </tr>
+        <tr *ngFor='let us of readQuiz'>
+            <td>{{us.topicid}}</td>
+            <td>{{us.quizid}}</td>
+            <td>{{us.question}}</td>
+            <td>{{us.optiona}}</td>
+            <td>{{us.optionb}}</td>
+            <td>{{us.optionc}}</td>
+            <td>{{us.optiond}}</td>
+            <td>{{us.answer}}</td>
+
+
+        </tr>
+    </table>
+</div>

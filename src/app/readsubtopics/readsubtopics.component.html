@@ -1,0 +1,23 @@
+<div class="container">
+
+    <table>
+        <tr>
+          <th>subtopicid</th>
+          <th>topicid</th>
+          <th>subtopicname</th>
+    
+          
+          
+        </tr>
+        <tr *ngFor = 'let us of readsubtopics'>
+          <td>{{us.subtopicid}}</td>
+          <td>{{us.topicid}}</td>
+         <td><a>{{us.subtopicname}}</a></td> 
+        
+        </tr>
+        
+      </table>
+
+      
+
+</div>

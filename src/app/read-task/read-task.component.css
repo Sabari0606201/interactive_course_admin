@@ -1,0 +1,34 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.container {
+  width: 100%;
+  margin: 20px auto;
+}
+
+table {
+  width: 94%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #838383;
+}
+
+th {
+  background-color: darksalmon;
+}
+
+tr:hover {
+  background-color: lavender;
+}

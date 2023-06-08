@@ -1,0 +1,21 @@
+<div class="container">
+    <table>
+        <tr>
+            <th>Topic Id</th>
+            <th>Task Id</th>
+            <th>Problem</th>
+            <th>Constraints</th>
+            <th>Input</th>
+            <th>Expected_Output</th>
+        </tr>
+        <tr *ngFor='let us of readTask'>
+            <td>{{us.topicid}}</td>
+            <td>{{us.task_id}}</td>
+            <td>{{us.Problem}}</td>
+            <td>{{us.Constraints}}</td>
+            <td>{{us.Input}}</td>
+            <td>{{us.expected_output}}</td>
+
+        </tr>
+    </table>
+</div>

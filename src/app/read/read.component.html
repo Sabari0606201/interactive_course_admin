@@ -1,0 +1,25 @@
+<div class="container">
+
+    <table>
+        <tr>
+          <th>#</th>
+          <th>heading</th>
+          <th>content1</th>
+          <th>content2</th>
+          <th>content3</th>
+          
+          
+        </tr>
+        <tr *ngFor = 'let us of readData'>
+          <td>{{us.idhome}}</td>
+          <td>{{us.heading}}</td>
+         <td><a>{{us.content1}}</a></td> 
+         <td><a>{{us.content2}}</a></td> 
+         <td><a>{{us.content3}}</a></td> 
+        </tr>
+        
+      </table>
+
+      
+
+</div>

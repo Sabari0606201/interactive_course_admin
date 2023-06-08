@@ -1,0 +1,45 @@
+.btns {
+    max-width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    zoom: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+button {
+    background-color: slateblue;
+}
+
+
+
+
+.tp-card {
+max-width: 70%;
+    margin-top: 3%;
+    margin-left: 12%;
+    border: 2px solid lightslategrey;
+
+}
+
+form {
+    margin-left: 40%;
+
+}
+
+div {
+    padding: 2%;
+}
+
+select {
+    width: 43%;
+    height: 38px;
+}
+
+input {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 8px;
+
+}

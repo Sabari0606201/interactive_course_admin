@@ -1,0 +1,15 @@
+<div class="container">
+
+  <table>
+    <tr>
+      <th class="b">courseid</th>
+      <th class="a">coursename</th>
+      <th class="delete">Delete</th>
+    </tr>
+    <tr *ngFor='let us of readcourse'>
+      <td>{{us.courseid}}</td>
+      <td>{{us.programming_course}}</td>
+      <td><mat-icon (click)="delete(us.courseid)">delete</mat-icon></td>
+    </tr>
+  </table>
+</div>

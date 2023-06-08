@@ -1,0 +1,35 @@
+
+
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+.mat-toolbar {
+  background-color:darkseagreen;
+  
+  
+}
+  /* .mat-icon {
+    height: 100%;
+    font-size: 30px;
+    
+  } */
+
+  .b1{
+    margin-left: 90%;
+  }
+ 
+
+
+.logo {
+   margin-top: 120px;
+      zoom: 9%;
+
+}
+.admin{
+  margin-top: 15px;
+   
+    margin-left: 40%;
+}
